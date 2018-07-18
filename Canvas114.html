@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Live cricket scores, commentary, match coverage | Cricket news, statistics | ESPN Cricinfo</title>
+		<link rel="stylesheet" href="main.css" type="text/css"/>
+	</head>
+	<header>
+		<ul id="nav_bar">
+			<li id="nav_home_logo"><a href="home.html"><img id="cricinfo_logo" src="espn_cricinfo_logo.png" alt="Home"/></li></a>
+			<li class="nav_element">WC 2015</li>
+			<li class="nav_element">LIVE SCORES</li>
+			<li class="nav_element">SERIES</li>
+			<li class="nav_element">COUNTRIES</li>
+			<li class="nav_element">NEWS</li>
+			<li class="nav_element">FEATURES</li>
+			<li class="nav_element">VIDEOS</li>
+			<li class="nav_element">BLOGS</li>
+			<li class="nav_element">PHOTOS</li>
+			<li class="nav_element">STATS</li>
+			<li class="nav_element">SHOP</li>
+			<li clmashup.html">Mashup</option>
+					</select>
+					</form>
+				</li>	
+<ul id="quick_links">
+
+					<li class="quick_element"><b>GO TO:</b></li>
+				<li class="quick_element">
+					<form >
+					<select id="edition" onchange="go()">
+						<option value="appyform.html">Register</option>
+						<option value="media.html">Media Queries</option>
+						<option value="Canvas114.html">Canvas</option>
+						<option value="typo.html">Typography</option>
+						<option value="ImAdViTy.html">Responsive Web</option>
+						<option value="Animations.html">Transitions </option>
+
+						<option value="ajax1.html">Ajax</option>
+						<option value="mashup.html">Mashup</option>
+					</select>
+					</form>
+				</li>
+
+
+
+
+
+
+			<li class="quick_element_header">QUICK LINKS:</li>
+			<li class="quick_element">PEPSI IPL</li>
+			<li class="quick_element">WORLD CUP 2015</li>
+			<li class="quick_element">POINTS TABLE</li>
+			<li class="quick_element">FANTASY</li>
+			<li class="quick_element">CRICIQ</li>
+			<li class="quick_element">INSIGHTS</li>
+			<li class="quick_element">#ONTHEROAD</li>
+			<li class="quick_element">CRICKET MONTHLY</li>
+		</ul>
+	</header>
+	<body>
+		<canvas id="myCanvas1" width="400" height="275" style="border:2px solid #c3c3c3;">
+		</canvas>
+		<img id="Image1" src="homebackground.jpg" width="400px" height="275px" style="border:2px solid #c3c3c3;"></img>
+		<canvas id="myCanvas2" width="400" height="275" style="border:2px solid #c3c3c3;">
+		</canvas>
+		<canvas id="myCanvas3" width="400" height="275" style="border:2px solid #c3c3c3;">
+		</canvas>
+		<canvas id="myCanvas4" width="400" height="275" style="border:2px solid #c3c3c3;">
+		</canvas>
+		<canvas id="myCanvas5" width="400" height="275" style="border:2px solid #c3c3c3;">
+		</canvas>
+		<script>
+			var l=document.getElementById("myCanvas1");//LINE
+			var ltx=l.getContext("2d");
+			ltx.moveTo(50,100);
+			ltx.lineTo(50,200);
+			ltx.stroke();
+			var r=document.getElementById("myCanvas1");//RECTANGLE
+			var rtx=l.getContext("2d");
+			rtx.fillStyle="#0000FF";
+			rtx.fillRect(100,50,200,150);
+			var c=document.getElementById("myCanvas1");//CIRCLE
+			var ctx=c.getContext("2d");
+			ctx.beginPath();
+			ctx.arc(355,150,40,0,2*Math.PI);
+			ctx.stroke();
+			var i=document.getElementById("myCanvas2");//IMAGE
+			var itx=i.getContext("2d");
+			var img=document.getElementById("Image1");
+			itx.drawImage(img,500,200);
+			var c=document.getElementById("myCanvas2");//HEAD
+			var ctx=c.getContext("2d");
+			ctx.beginPath();
+			ctx.arc(210,70,40,0,2*Math.PI);
+			ctx.stroke();
+			var l=document.getElementById("myCanvas2");//HANDS
+			var ltx=l.getContext("2d");
+			ltx.moveTo(210,110);
+			ltx.lineTo(170,150);
+			ltx.stroke();
+			var l=document.getElementById("myCanvas2");//HANDS
+			var ltx=l.getContext("2d");
+			ltx.moveTo(210,110);
+			ltx.lineTo(250,150);
+			ltx.stroke();
+			var l=document.getElementById("myCanvas2");//STEM
+			var ltx=l.getContext("2d");
+			ltx.moveTo(210,110);
+			ltx.lineTo(210,200);
+			ltx.stroke();
+			var l=document.getElementById("myCanvas2");//LEGS
+			var ltx=l.getContext("2d");
+			ltx.moveTo(210,200);
+			ltx.lineTo(160,300);
+			ltx.stroke();
+			var l=document.getElementById("myCanvas2");//LEGS
+			var ltx=l.getContext("2d");
+			ltx.moveTo(210,200);
+			ltx.lineTo(240,300);
+			ltx.stroke();
+			var c=document.getElementById("myCanvas3");//SCALING
+			var ctx=c.getContext("2d");
+			ctx.fillStyle="black";
+			ctx.fillRect(50,50,150,100);
+			ctx.scale(1.2,1.2);
+			ctx.fillStyle="red";
+			ctx.fillRect(50,50,150,100);
+			ctx.font="20px Arial"
+			ctx.fillText("Scaling",20,20);
+			var c=document.getElementById("myCanvas4");//TRANSLATION
+			var ctx=c.getContext("2d");
+			ctx.fillStyle="green";
+			ctx.font="20px Arial"
+			ctx.fillText("Translation",20,20);
+			ctx.fillStyle="black";
+			ctx.fillRect(50,50,100,75);
+			ctx.translate(myCanvas4.width/2,myCanvas4.height/2);
+			ctx.fillStyle="red";
+			ctx.fillRect(50,50,100,75);
+			var c=document.getElementById("myCanvas5");//ROTATION
+			var ctx=c.getContext("2d");
+			ctx.fillStyle="blue";
+			ctx.font="20px Arial"
+			ctx.fillText("Rotation",20,20);
+			ctx.fillStyle="black";
+			ctx.fillRect(75,50,150,100);
+			ctx.rotate(20* Math.PI/180);
+			ctx.fillStyle="red";
+			ctx.fillRect(75,50,150,100);
+		</script>
+	</body>
+</html>

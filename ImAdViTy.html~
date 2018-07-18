@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Responsive Images,Audio,Video</title>
+		<link rel="stylesheet" href="main.css" type="text/css"/>
+		<style>
+			img{
+				max-width:100%;
+				height:auto;
+			   }
+			video{
+				max-width:100%;
+				height:auto;
+			     }
+			audio{
+				max-width:100%;
+				height:auto;
+			     }
+		</style>
+	</head>
+	<header>
+		<ul id="nav_bar">
+			<li id="nav_home_logo"><a href="home.html"><img id="cricinfo_logo" src="espn_cricinfo_logo.png" alt="Home"/></li></a>
+			<li class="nav_element">WC 2015</li>
+			<li class="nav_element">LIVE SCORES</li>
+			<li class="nav_element">SERIES</li>
+			<li class="nav_element">COUNTRIES</li>
+			<li class="nav_element">NEWS</li>
+			<li class="nav_element">FEATURES</li>
+			<li class="nav_element">VIDEOS</li>
+			<li class="nav_element">BLOGS</li>
+			<li class="nav_element">PHOTOS</li>
+			<li class="nav_element">STATS</li>
+			<li class="nav_element">SHOP</li>
+			<li class="nav_element">FANTASY</li>
+		</ul>
+		<ul id="quick_links">
+			<li class="quick_element_header">QUICK LINKS:</li>
+			<li class="quick_element">PEPSI IPL</li>
+			<li class="quick_element">WORLD CUP 2015</li>
+			<li class="quick_element">POINTS TABLE</li>
+			<li class="quick_element">FANTASY</li>
+			<li class="quick_element">CRICIQ</li>
+			<li class="quick_element">INSIGHTS</li>
+			<li class="quick_element">#ONTHEROAD</li>
+			<li class="quick_element">CRICKET MONTHLY</li>
+		</ul>
+	</header>
+	<body>
+		<p>Welcome here!!</p>
+		<img src="maxi.jpg" alt="maxwell" ></img>		<video src="VID-20150311-WA0011.mp4" controls poster="images.jpg" >
+			<a href="sp.mp4">Download Movie</a>
+		</video>
+	</body>
+</html>

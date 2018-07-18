@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Live cricket scores, commentary, match coverage | Cricket news, statistics | ESPN Cricinfo</title>
+		<link rel="stylesheet" href="main.css" type="text/css"/>
+	</head>
+	<body>
+	<header>
+		<ul id="nav_bar">
+			<li id="nav_home_logo"><a href="home.html"><img id="cricinfo_logo" src="espn_cricinfo_logo.png" alt="Home"/></li></a>
+			<li class="nav_element">WC 2015</li>
+			<li class="nav_element">LIVE SCORES</li>
+			<li class="nav_element">SERIES</li>
+			<li class="nav_element">COUNTRIES</li>
+			<li class="nav_element">NEWS</li>
+			<li class="nav_element">FEATURES</li>
+			<li class="nav_element">VIDEOS</li>
+			<li class="nav_element">BLOGS</li>
+			<li class="nav_element">PHOTOS</li>
+			<li class="nav_element">STATS</li>
+			<li class="nav_element">SHOP</li>
+			<li class="nav_element">FANTASY</li>
+		</ul>
+		<ul id="quick_links">
+			<li class="quick_element_header">QUICK LINKS:</li>
+			<li class="quick_element">PEPSI IPL</li>
+			<li class="quick_element">WORLD CUP 2015</li>
+			<li class="quick_element">POINTS TABLE</li>
+			<li class="quick_element">FANTASY</li>
+			<li class="quick_element">CRICIQ</li>
+			<li class="quick_element">INSIGHTS</li>
+			<li class="quick_element">#ONTHEROAD</li>
+			<li class="quick_element">CRICKET MONTHLY</li>
+		</ul>
+	</header>
+		<div id="main_1">
+			<h3 class="blue_header">WORLD CUP 2015 REVIEW</h3>
+			<h2 class="main_heading">Advantage batsmen, game to bowlers</h2>
+			<video id="main_video" controls>
+				<source src="sample.mp4" type="video/mp4">
+			</video>
+			<section>
+			<div id="main_headline_table">
+				<span class="main_headline_table_elements">Bal: Bowlers had the last word despite string of high scores</span>
+				<span class="main_headline_table_elements">NZ 5, Australia 4 in our World Cup team</span>
+				<span class="main_headline_table_elements">Best bowling spells - Wahab, Southee, Starc</span>
+				<span class="main_headline_table_elements">Best innings - Guptill, Smith, Shenwari</span>
+				<span class="main_headline_table_elements">Stats - Blazing Brendon, Sensational Starc</span>
+				<span class="main_headline_table_elements">Controversies - Mooney's catch, Rohit's no ball</span>
+				<span class="main_headline_table_elements">Memories - The nice guys from New Zealand</span>
+				<span class="main_headline_table_elements">Best quotes - Dhoni's citizenship quip</span>
+				<span class="main_headline_table_elements">World Cup in pictures</span>
+				<span class="main_headline_table_elements">World Cup in tweets - Less boring than 2007</span>
+			</div>
+			</section>
+		</div>
+		<aside>
+		<div id="editors_pick">
+			<h3 class="black_header">EDITORS PICK</h3>
+			<img id="clarke" src="clarke.jpg" alt="Clarke"/>
+			<div id="blue_bg">
+				<h2 class="white_subheading">Clarke's fairy tale</h2>
+				<p id="desc_white">Mark Nicholas: The last few days have been about being loved at last for Australia's World Cup-winning captain</p>
+			</div>
+		</div>
+		</aside>
+		<aside>
+		<div id="scores">
+			<div id="scores_headings">
+				<span class="score_header">LIVE</span>
+				<span class="score_header">RESULT</span>
+				<span class="score_header">FIXTURES</span>
+			</div>
+			<p>No matches being played at this time</p>
+			<div id="scores_footer">
+				<span class="score_footer" id="live_scores_pages">Live scores pages</span>
+				<span class="score_footer">Scores on Mobile</span>
+			</div>
+			<img src="right.png" id="clarke"></img>
+		</div>
+		</aside>
+		<footer>
+			<ul id="quick_links">
+			<li class="quick_element"><img src="espn.jpg"width="100"  height="25"></img></li>
+				<li class="quick_element"> SITEMAP&nbsp;| </li>
+				<li class="quick_element"> FEEDBACK&nbsp;|</li>
+				<li class="quick_element"> RSS&nbsp;|</li>
+				<li class="quick_element"> &copy;ESPN SPORTS MEDIA LTD.&nbsp; |</li>
+				<li class="quick_element"> TERMSOFUSE&nbsp;| </li>
+				<li class="quick_element"> PRIVACYPOLICY</li>
+			</ul>
+		</footer>
+		</div>
+	</body>
+</html>

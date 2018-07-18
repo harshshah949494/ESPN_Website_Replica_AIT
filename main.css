@@ -1,0 +1,173 @@
+body{
+	background-color: #eee;
+	color: #000;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+#nav_bar{
+	background-color: #272727;
+	list-style-type: none;
+	margin: 0px;
+	text-align: center;
+	max-width: 100%;
+}
+.nav_element{
+	display: inline-table;
+	color: white;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 12px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.nav_element:hover{
+	border-style: inset;
+	border-width: 0px;
+	border-bottom-width: 5px;
+	border-bottom-color: #3e9cca;
+}
+#nav_home_logo{
+	background-color: #3e9cca;
+	display: inline-table;
+	padding: 16px;
+}
+#cricinfo_logo{
+	height: 22px;
+}
+#quick_links{
+	background-color: #FFFFFF;
+	list-style-type: none;
+	margin: 0px;
+	text-align: center;
+	max-width: 100%;
+	box-shadow: 0px 9px 16px -5px rgba(0,0,0,0.75);
+}
+.quick_element_header{
+	display: inline-table;
+	color: #272727;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.quick_element{
+	display: inline-table;
+	color: #272727;
+	font-family: Arial;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.quick_element:hover{
+	color: #3e9cca;
+}
+#main_1{
+	margin: 20px;
+	padding: 20px;
+	font-family: Arial;
+	background-color: white;
+	display: inline-table;
+	width: 35%;
+	max-width: 100%;
+	text-align: left;
+}
+.blue_header{
+	margin: 2px;
+	padding: 5px;
+	color: #3e9cca;
+	font-size: 14px;
+	font-weight: normal;
+	max-width: 100%;	
+}
+.main_heading{
+	font-size: 28px;
+	max-width: 100%;
+	margin: 2px;
+	padding: 5px;
+}
+#main_video{
+	max-width: 100%;
+}
+#editors_pick{
+	margin: 20px;
+	margin-left: 0px;
+	font-family: Arial;
+	background-color: white;
+	display: inline-table;
+	width: 20%;
+	max-width: 100%;
+	text-align: left;
+}
+.black_header{
+	margin: 2px;
+	padding: 20px;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	max-width: 100%;	
+}
+#clarke{
+	margin: 0px;
+	width: 100%;
+	padding: 0px;
+}
+#blue_bg{
+	background-color: #3e9cca;
+	color: white;
+	margin: 0px;
+	padding: 20px;
+}
+#desc_white{
+	font-size: 14px;
+	font-weight: normal;
+}
+#scores{
+	margin: 20px;
+	margin-left: 0px;
+	font-family: Arial;
+	background-color: white;
+	display: inline-table;
+	width: 25%;
+	max-width: 100%;
+	text-align: left;
+}
+#scores_headings{
+	padding: 20px;
+}
+.score_header{
+		padding: 15px;
+		color: #3e9cca;
+}
+p{
+	padding-left: 35px;
+}
+#scores_footer{
+	padding: 20px;
+	background-color: #E7E7E7;
+}
+.score_footer{
+	padding: 15px;
+}
+#live_scores_pages{
+	border-style: solid;
+	border-width: 0px;
+	border-right-width: 3px;
+	border-right-color: #d7d7d7;
+}
+#main_headline_table{
+	padding: 10px;
+	text-align: center;
+}
+.main_headline_table_elements{
+	font-size: 14px;
+	display: inline-table;
+	width: 45%;
+	padding: 10px;
+	text-align: left;
+}
